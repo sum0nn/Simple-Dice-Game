@@ -113,3 +113,26 @@ footer {
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for screens smaller than 768px */
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Adjust styles for screens smaller than 480px */
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
